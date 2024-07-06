@@ -26,6 +26,8 @@ OmniSNG 是一套多功能全自动数字卫星新闻采集信号(DSNG)地面接
 
 - API control.
 
+- Adapter and satellite controller configuration files.
+
 - Smart dispatch controller for fully-automated DSNG signal capture.
 
 - English language support (partial).
@@ -47,6 +49,8 @@ OmniSNG 是一套多功能全自动数字卫星新闻采集信号(DSNG)地面接
 - 盲扫。
 
 - API控制。
+
+- 多适配器和卫星控制器配置文件。
 
 - 智慧调度控制器，全时段DSNG信号自动捕获。
 
