@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OmniSNG", "OmniSNG\OmniSNG.vbproj", "{C7626BDC-9D76-41B0-A4CE-D2EA686A09C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7626BDC-9D76-41B0-A4CE-D2EA686A09C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7626BDC-9D76-41B0-A4CE-D2EA686A09C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7626BDC-9D76-41B0-A4CE-D2EA686A09C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7626BDC-9D76-41B0-A4CE-D2EA686A09C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C986DEB-A475-4DF3-AF40-4DAAAF691017}
+	EndGlobalSection
+EndGlobal
