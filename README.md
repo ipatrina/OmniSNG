@@ -22,9 +22,9 @@ OmniSNG 是一套多功能全自动数字卫星新闻采集信号(DSNG)地面接
 
 - Ultra-fast BISS (DVB-CSA) decryption with FFDesca.
 
-- Blind scan
+- Blind scan.
 
-- API control
+- API control.
 
 - Smart dispatch controller for fully-automated DSNG signal capture.
 
