@@ -1,8 +1,8 @@
 # OmniSNG
 
-OmniSNG is a multifunctional & fully-automated Digital Satellite News Gathering (DSNG) receiving system.
+OmniSNG is a multifunctional & fully-automated Digital Satellite News Gathering (DSNG) signal receiving system.
 
-OmniSNG 是一款多功能全自动数字卫星新闻采集信号(DSNG)地面接收系统。
+OmniSNG 是一套多功能全自动数字卫星新闻采集信号(DSNG)地面接收系统。
 
 
 ![OmniSNG preview](https://thumbs2.imgbox.com/66/cb/vQQrMFzN_t.png)
@@ -12,23 +12,29 @@ OmniSNG 是一款多功能全自动数字卫星新闻采集信号(DSNG)地面接
 
 - Dedicated UI and workflow design for DSNG signal reception.
 
+- Unfiltered complete carrier data.
+
 - Multi-tuner support.
 
 - Multi-channel HTTP, TCP, file output.
 
 - Scaled BER, SNR, service name display.
 
-- Blind scan
-
 - Ultra-fast BISS (DVB-CSA) decryption with FFDesca.
+
+- Blind scan
 
 - API control
 
 - Smart dispatch controller for fully-automated DSNG signal capture.
 
+- English language support (partial).
+
 ---
 
 - 专为DSNG信号接收设计的操作界面和工作流程。
+
+- 未经删改的完整载波数据。
 
 - 多路调谐器支持。
 
@@ -43,6 +49,8 @@ OmniSNG 是一款多功能全自动数字卫星新闻采集信号(DSNG)地面接
 - API控制。
 
 - 智慧调度控制器，全时段DSNG信号自动捕获。
+
+- 简体中文语言支持。
 
 
 # System requirements / 系统要求
@@ -62,15 +70,15 @@ To make a long story short, the Montage M88RS6060 model is the most suitable "tu
 
 It can provide you with:
 
-- Very low SNR threshold & stable signal reception of carriers with symbol rates higher than 4000 ksps.
+- Very low SNR threshold & stable signal reception of carriers w/symbol rates higher than 4000 ksps.
 
 - Ultra-high-speed blind scan (20 secs per 500 MHz range).
 
 - Support for various modulation methods of DVB-S2 and DVB-S2X.
 
-These seemingly basic features are however not available in many other competing products on the market. Therefore, if you are targeting DSNG signal reception, there's no need to waste a single piece of dollar on other competing products.
+These seemingly basic features are however not available in many other competing products on the market. Therefore, if you are targeting DSNG signal reception, there's no need to waste a single cent of dollar on other competing products.
 
-Nevertheless, this chip has defacts. It is not stable for some rarely used DVB-S2/S2X modulation types, DVB-S1 low signal conditions, and symbol rates less than 4000 ksps. Therefore, if most of the DSNG you want to receive belongs to the above conditions, please do not consider this chip.
+Nevertheless, this chip has defects. It is not stable for some rarely used DVB-S2/S2X modulation types, DVB-S1 low signal conditions, and symbol rates less than 4000 ksps. Therefore, if most of the DSNG you want to receive belongs to the above conditions, please do not consider this chip.
 
 To save your time, we recommend that you directly purchase the cost-effective TBS6904SE tuner card that utilises Montage M88RS6060 combo chips.
 
@@ -90,9 +98,9 @@ Good luck, have fun.
 
 除非您完全清楚自己在买什么，否则请听我说。
 
-一款卫星接收卡是否能够带来理想的效果，最重要的并不是制造商或者产品型号，而是其内置的解调芯片。非常遗憾，但是世界上并没有完美的解调芯片。只有根据您的具体需求来挑选擅长于您需要工作的芯片。
+一款卫星接收卡是否能够带来理想的效果，最重要的并不是制造商或者产品型号，而是其内置的解调芯片。非常遗憾，但是世界上并没有完美的解调芯片。只有根据您的具体需求来挑选擅长于您所需工作的芯片。
 
-长话短说，澜至电子科技M88RS6060型号集成化调谐芯片是我们目前已知的最适合于DSNG信号接收的产品。它能够为您提供：
+长话短说，澜至电子科技M88RS6060型号集成化调谐芯片是我们目前已知最适合于DSNG信号接收的产品。它能够为您提供：
 
 - 对高于4000 ksps符号率的载波，极低门限的稳定接收。
 
@@ -102,7 +110,7 @@ Good luck, have fun.
 
 然而，这些看似最基本的特性是市面上很多其他竞品不存在的。因此，如果是为了DSNG信号接收，您完全不需要再浪费任何一分钱在其他的竞品上。
 
-当然，这款调谐芯片并不是没有任何缺陷，它对于一些特殊的DVB-S2/S2X调制方式、DVB-S1低信号的情况，以及接收符号率小于4000 ksps的情况并不稳定。因此如果您要接收的多数DSNG属于上述情况，请不要考虑这款芯片。
+当然，这款调谐芯片并不是没有任何缺陷。它对于一些特殊的DVB-S2/S2X调制方式、DVB-S1低信号的情况，以及接收符号率小于4000 ksps的情况并不稳定。因此如果您要接收的多数DSNG属于上述情况，请不要考虑这款芯片。
 
 为了节省您的时间，我们推荐您直接购买性价比超高的型号为TBS6904SE的卫星接收卡即可（它采用了澜至电子科技M88RS6060型号解调芯片）。
 
