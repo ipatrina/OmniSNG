@@ -44,7 +44,7 @@ OmniSNG 是一套多功能全自动数字卫星新闻采集信号(DSNG)地面接
 
 - 易读BER比例、SNR、服务名称显示。
 
-- 使用FFDesca高速解密BISS(DVB-CSA)加密。
+- 使用FFDesca高速解密BISS(DVB-CSA)加密方式。
 
 - 盲扫。
 
