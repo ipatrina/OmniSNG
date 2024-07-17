@@ -84,7 +84,7 @@ These seemingly basic features are however not available in many other competing
 
 Nevertheless, this chip has defects. It is not stable for some rarely used DVB-S2/S2X modulation types, DVB-S1 low signal conditions, and symbol rates less than 4000 ksps. Therefore, if most of the DSNG you want to receive belongs to the above conditions, please do not consider this chip.
 
-To save your time, we recommend that you directly purchase the cost-effective TBS6904SE tuner card that utilises Montage M88RS6060 combo chips.
+To save your time, we recommend that you directly purchase the cost-effective TBS6904SE tuner card that utilizes Montage M88RS6060 combo chips.
 
 https://shop.tbsdtv.com/tbs6904se-dvbs2x-quad-tuner-pcie-card-p-338.html
 
@@ -116,7 +116,7 @@ Good luck, have fun.
 
 当然，这款调谐芯片并不是没有任何缺陷。它对于一些特殊的DVB-S2/S2X调制方式、DVB-S1低信号的情况，以及接收符号率小于4000 ksps的情况并不稳定。因此如果您要接收的多数DSNG属于上述情况，请不要考虑这款芯片。
 
-为了节省您的时间，我们推荐您直接购买性价比超高的型号为TBS6904SE的卫星接收卡即可（它采用了澜至电子科技M88RS6060型号解调芯片）。
+为了节省您的时间，我们推荐您直接购买性价比超高的型号为TBS6904SE的接收卡即可（它采用了澜至电子科技M88RS6060型号解调芯片）。
 
 https://item.taobao.com/item.htm?id=639106044108
 
@@ -155,6 +155,12 @@ Many thanks.
 
 
 # Changelog / 更新日志
+
+**8.3.1 (2024/07/13)**
+
+1.修复解扰本地文件尾部不完整的问题。
+
+---
 
 **8.3.0 (2024/05/08)**
 
