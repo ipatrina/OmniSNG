@@ -557,7 +557,7 @@ Public Class MainUI
                             .param3 = 0
                         }
                         Dim _loc_4 As Integer = decrypt_packets(_loc_3, CSAKeys)
-                        Marshal.Copy(_loc_1, CSAFileBuffer, 0, TSPacketSize * _loc_4)
+                        Marshal.Copy(_loc_1, CSAFileBuffer, 0, CSAFileBuffer.Length)
                         CSAFileWriter.Write(CSAFileBuffer)
                     Catch ex As Exception
 
