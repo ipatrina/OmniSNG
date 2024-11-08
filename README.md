@@ -66,7 +66,7 @@ Applicable for Windows 7 and above operating systems.
 
 # Receiving device / 接收装置
 
-Unless you know exactly what you are buying, then follow us.
+Unless you know exactly what you are buying, otherwise follow us.
 
 Whether a satellite receiving card can bring you desired effect, the most important thing is not the manufacturer or the model of the card, but its demodulation chip. I'm sorry but there is no perfect demodulation chip in the world. You can only choose the chip that benefits for you needs.
 
