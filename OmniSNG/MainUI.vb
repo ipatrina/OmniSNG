@@ -1867,6 +1867,9 @@ Public Class MainUI
             End If
 
             If LockOK Then
+                Dim _loc_5 As String() = GetAdapterConfiguration("LockDiSEqC").Split(",")
+                If _loc_5.Length > 1 Then SendDiSEqC(Int(_loc_5(0)), Int(_loc_5(1)))
+
                 If MISInput.Length > 0 Then MISSel(True, Int(MISInput))
                 CarrierCurrent = ReplacePol(Int(SearchParameter.Freq / 1000) & SearchParameter.PolChar & RoundSR(Int(SearchParameter.SR / 1000)), GetAdapterConfiguration("Pol"))
                 CarrierCurrentWithRemark = CarrierCurrent
