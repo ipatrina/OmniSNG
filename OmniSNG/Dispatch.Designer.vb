@@ -82,7 +82,7 @@ Partial Class Dispatch
         Me.LsvAdapter.Font = New System.Drawing.Font("微软雅黑", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LsvAdapter.FullRowSelect = True
         Me.LsvAdapter.HideSelection = False
-        Me.LsvAdapter.Location = New System.Drawing.Point(12, 12)
+        Me.LsvAdapter.Location = New System.Drawing.Point(12, 10)
         Me.LsvAdapter.Name = "LsvAdapter"
         Me.LsvAdapter.Size = New System.Drawing.Size(984, 240)
         Me.LsvAdapter.TabIndex = 1001
@@ -170,11 +170,12 @@ Partial Class Dispatch
         '
         'ChkDispatch
         '
+        Me.ChkDispatch.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ChkDispatch.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.ChkDispatch.Checked = True
         Me.ChkDispatch.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ChkDispatch.Font = New System.Drawing.Font("微软雅黑", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.ChkDispatch.Location = New System.Drawing.Point(846, 257)
+        Me.ChkDispatch.Location = New System.Drawing.Point(846, 255)
         Me.ChkDispatch.Name = "ChkDispatch"
         Me.ChkDispatch.Size = New System.Drawing.Size(150, 42)
         Me.ChkDispatch.TabIndex = 9001
@@ -184,14 +185,13 @@ Partial Class Dispatch
         '
         'LsvSearch
         '
-        Me.LsvSearch.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.LsvSearch.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LsvSearch.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ClhSearchCarrier, Me.ClhSearchAdapter, Me.ClhSearchStatus})
         Me.LsvSearch.Font = New System.Drawing.Font("微软雅黑", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LsvSearch.FullRowSelect = True
         Me.LsvSearch.HideSelection = False
-        Me.LsvSearch.Location = New System.Drawing.Point(12, 296)
+        Me.LsvSearch.Location = New System.Drawing.Point(12, 294)
         Me.LsvSearch.Name = "LsvSearch"
         Me.LsvSearch.Size = New System.Drawing.Size(510, 256)
         Me.LsvSearch.TabIndex = 2101
@@ -215,9 +215,11 @@ Partial Class Dispatch
         '
         'LblSearch
         '
+        Me.LblSearch.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LblSearch.AutoSize = True
         Me.LblSearch.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LblSearch.Location = New System.Drawing.Point(8, 267)
+        Me.LblSearch.Location = New System.Drawing.Point(8, 265)
         Me.LblSearch.Name = "LblSearch"
         Me.LblSearch.Size = New System.Drawing.Size(90, 21)
         Me.LblSearch.TabIndex = 2001
@@ -225,9 +227,10 @@ Partial Class Dispatch
         '
         'LblExclude
         '
+        Me.LblExclude.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LblExclude.AutoSize = True
         Me.LblExclude.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.LblExclude.Location = New System.Drawing.Point(526, 267)
+        Me.LblExclude.Location = New System.Drawing.Point(526, 265)
         Me.LblExclude.Name = "LblExclude"
         Me.LblExclude.Size = New System.Drawing.Size(58, 21)
         Me.LblExclude.TabIndex = 4001
@@ -235,17 +238,19 @@ Partial Class Dispatch
         '
         'LstExclude
         '
+        Me.LstExclude.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LstExclude.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.LstExclude.FormattingEnabled = True
         Me.LstExclude.ItemHeight = 21
-        Me.LstExclude.Location = New System.Drawing.Point(530, 296)
+        Me.LstExclude.Location = New System.Drawing.Point(530, 294)
         Me.LstExclude.Name = "LstExclude"
         Me.LstExclude.Size = New System.Drawing.Size(309, 214)
         Me.LstExclude.TabIndex = 4101
         '
         'BtnExcludeAdd
         '
-        Me.BtnExcludeAdd.Location = New System.Drawing.Point(846, 516)
+        Me.BtnExcludeAdd.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnExcludeAdd.Location = New System.Drawing.Point(846, 514)
         Me.BtnExcludeAdd.Name = "BtnExcludeAdd"
         Me.BtnExcludeAdd.Size = New System.Drawing.Size(150, 36)
         Me.BtnExcludeAdd.TabIndex = 9731
@@ -254,7 +259,8 @@ Partial Class Dispatch
         '
         'BtnExcludeRemove
         '
-        Me.BtnExcludeRemove.Location = New System.Drawing.Point(846, 474)
+        Me.BtnExcludeRemove.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnExcludeRemove.Location = New System.Drawing.Point(846, 472)
         Me.BtnExcludeRemove.Name = "BtnExcludeRemove"
         Me.BtnExcludeRemove.Size = New System.Drawing.Size(150, 36)
         Me.BtnExcludeRemove.TabIndex = 9711
@@ -263,7 +269,8 @@ Partial Class Dispatch
         '
         'BtnSR
         '
-        Me.BtnSR.Location = New System.Drawing.Point(846, 348)
+        Me.BtnSR.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnSR.Location = New System.Drawing.Point(846, 346)
         Me.BtnSR.Name = "BtnSR"
         Me.BtnSR.Size = New System.Drawing.Size(150, 36)
         Me.BtnSR.TabIndex = 9301
@@ -272,7 +279,8 @@ Partial Class Dispatch
         '
         'BtnHistory
         '
-        Me.BtnHistory.Location = New System.Drawing.Point(846, 390)
+        Me.BtnHistory.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnHistory.Location = New System.Drawing.Point(846, 388)
         Me.BtnHistory.Name = "BtnHistory"
         Me.BtnHistory.Size = New System.Drawing.Size(150, 36)
         Me.BtnHistory.TabIndex = 9501
@@ -281,7 +289,8 @@ Partial Class Dispatch
         '
         'BtnHistoryClean
         '
-        Me.BtnHistoryClean.Location = New System.Drawing.Point(846, 432)
+        Me.BtnHistoryClean.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnHistoryClean.Location = New System.Drawing.Point(846, 430)
         Me.BtnHistoryClean.Name = "BtnHistoryClean"
         Me.BtnHistoryClean.Size = New System.Drawing.Size(150, 36)
         Me.BtnHistoryClean.TabIndex = 9511
@@ -290,9 +299,10 @@ Partial Class Dispatch
         '
         'ChkSearchOverride
         '
+        Me.ChkSearchOverride.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ChkSearchOverride.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ChkSearchOverride.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.ChkSearchOverride.Location = New System.Drawing.Point(846, 305)
+        Me.ChkSearchOverride.Location = New System.Drawing.Point(846, 303)
         Me.ChkSearchOverride.Name = "ChkSearchOverride"
         Me.ChkSearchOverride.Size = New System.Drawing.Size(150, 37)
         Me.ChkSearchOverride.TabIndex = 9101
@@ -302,8 +312,9 @@ Partial Class Dispatch
         '
         'TxtExclude
         '
+        Me.TxtExclude.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtExclude.Font = New System.Drawing.Font("微软雅黑", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.TxtExclude.Location = New System.Drawing.Point(530, 518)
+        Me.TxtExclude.Location = New System.Drawing.Point(530, 516)
         Me.TxtExclude.Name = "TxtExclude"
         Me.TxtExclude.Size = New System.Drawing.Size(268, 33)
         Me.TxtExclude.TabIndex = 4201
@@ -311,7 +322,8 @@ Partial Class Dispatch
         '
         'BtnExcludeAddTemporary
         '
-        Me.BtnExcludeAddTemporary.Location = New System.Drawing.Point(804, 516)
+        Me.BtnExcludeAddTemporary.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnExcludeAddTemporary.Location = New System.Drawing.Point(804, 514)
         Me.BtnExcludeAddTemporary.Name = "BtnExcludeAddTemporary"
         Me.BtnExcludeAddTemporary.Size = New System.Drawing.Size(36, 36)
         Me.BtnExcludeAddTemporary.TabIndex = 4211
@@ -320,9 +332,10 @@ Partial Class Dispatch
         '
         'ChkExcludeDelete
         '
+        Me.ChkExcludeDelete.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ChkExcludeDelete.AutoSize = True
         Me.ChkExcludeDelete.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.ChkExcludeDelete.Location = New System.Drawing.Point(747, 266)
+        Me.ChkExcludeDelete.Location = New System.Drawing.Point(747, 264)
         Me.ChkExcludeDelete.Name = "ChkExcludeDelete"
         Me.ChkExcludeDelete.Size = New System.Drawing.Size(93, 25)
         Me.ChkExcludeDelete.TabIndex = 4011
@@ -331,10 +344,12 @@ Partial Class Dispatch
         '
         'LblSearchUpdate
         '
+        Me.LblSearchUpdate.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LblSearchUpdate.AutoSize = True
         Me.LblSearchUpdate.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.LblSearchUpdate.ForeColor = System.Drawing.Color.SlateBlue
-        Me.LblSearchUpdate.Location = New System.Drawing.Point(104, 267)
+        Me.LblSearchUpdate.Location = New System.Drawing.Point(104, 265)
         Me.LblSearchUpdate.Name = "LblSearchUpdate"
         Me.LblSearchUpdate.Size = New System.Drawing.Size(55, 22)
         Me.LblSearchUpdate.TabIndex = 2011
@@ -344,7 +359,6 @@ Partial Class Dispatch
         'Dispatch
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1008, 561)
         Me.Controls.Add(Me.LblSearchUpdate)
@@ -366,7 +380,7 @@ Partial Class Dispatch
         Me.Font = New System.Drawing.Font("微软雅黑", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(5)
-        Me.MaximizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(1024, 600)
         Me.Name = "Dispatch"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "OmniSNG"

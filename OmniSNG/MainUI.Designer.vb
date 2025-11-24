@@ -871,6 +871,7 @@ Partial Class MainUI
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.MaximizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(640, 480)
         Me.Name = "MainUI"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Tag = ""
